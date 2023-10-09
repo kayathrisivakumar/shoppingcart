@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navstyle{
+  width: 100%;
+  height: 60px;
+  color: black;
+  border: 1px solid black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.navleft{
+  padding: 15px;
+}
+span{
+  padding: 15px;
+}
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: black;
   color: white;
-}
+  text-align: center;
+  line-height: 100px;  
 
-.App-link {
-  color: #61dafb;
 }
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.cartstyle{
+  border: 1px solid black;
+  border-radius: 15px;
+  line-height: 50px;
+  margin-right: 20px;
+  margin-top: 5px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 50px;
+  width: 75px;
+  
 }
+.section{
+ 
+  width: 100%;  
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height:80px;
+  line-height: 80px;
+  
+}
+.cardstyle{  
+  border: 1px solid grey;
+  
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  padding: 3px;
+  margin: 25px;
+}
+img{
+  height:200px;
+  width: 200px; 
+  
+} 
+.dropdown {
+  border: 1px solid white;
+  width: 38px;
+  padding: 10px;
+  /* background-color: black; */
+  color: black;
+  position: relative;
+  margin-left: 250px;
+  display: flex;
+  margin-top: -31px;
+
+}
+.dropdownlist{
+  display:none;
+  position:absolute;
+  background-color: white;
+  left: 35px;
+  width: 120px;
+  top:32px;
+  line-height: 40px;
+  
+}
+.dropdown:hover .dropdownlist{
+  display: block;
+} 
+
+
