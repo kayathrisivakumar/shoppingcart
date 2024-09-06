@@ -1,26 +1,26 @@
 export const Productinfo=[
 {
-image:"https://shorturl.at/cijR7",
+image:"https://rb.gy/dx23j",
 Name:"Fancy Product",
 cost: "$40.00 - $80.00"
 },
 {
-image:"https://shorturl.at/ozM69",
+image:"https://rb.gy/dx23j",
 Name:"Special Item",
 cost: "$20.00 $18.00"
 },
 {
-image:"https://shorturl.at/eiCL6",
+image:"https://rb.gy/dx23j",
 Name:"Sale Item",
 cost: "$50.00 $25.00"
 },
 {
-    image:"https://shorturl.at/uzL16",
+    image:"https://rb.gy/dx23j",
     Name:"Popular Item",
     cost: "$40.00"
 },
 {
-    image:"https://shorturl.at/kmvQ2",
+    image:"https://rb.gy/dx23j",
     Name:"Sale Item",
     cost: "$50.00 $25.00"
 },
